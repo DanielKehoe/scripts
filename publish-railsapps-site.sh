@@ -11,10 +11,10 @@ mv Home.html index.html
 thor publish:fix_titles
 thor publish:update_old_articles
 thor publish:move_tutorials
-echo "COMMITTING";
-git add .
-git commit -am "update website"
-git push origin master
-open "http://railsapps.github.io/"
+# echo "COMMITTING";
+# git add .
+# git commit -am "update website"
+# git push origin master
+# open "http://railsapps.github.io/"
 echo "FINISHED";
 exit 0
